@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #f0f8ff;   /* 背景色 */
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 50px;
@@ -12,4 +12,25 @@ h1 {
 p {
     color: #666666;
     font-size: 18px;
+}
+
+/* カードのホバー効果 */
+.hover-shadow:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* カード全体のホバーで浮き上がる */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ボタンの幅を統一＆間隔 */
+.btn {
+    min-width: 80px;
+    margin-right: 5px;
 }
