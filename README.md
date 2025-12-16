@@ -1,16 +1,18 @@
 # Flask CRUD アプリ（ポートフォリオ）
 
 ## 概要
-Flask で作成した CRUD アプリです。
+このアプリは Flask で作成した CRUD（Create, Read, Update, Delete）アプリです。
 動的にカードを追加・編集・削除できます。
 
 ## 機能
 - カードの一覧表示
-- 新規追加
-- 編集
-- 削除
+- 新規カードの追加
+- 既存カードの編集
+- カードの削除
 
-## スクリーンショット（ダミー）
+## スクリーンショット
+※ 下記画像は例です。実際のアプリ画面に置き換えてください
+
 ### トップページ
 ![トップページ](static/screenshots/screenshot_index.png)
 
@@ -27,6 +29,6 @@ Flask で作成した CRUD アプリです。
 - Bootstrap
 
 ## 実行方法（任意）
-1. 仮想環境を有効化  
-   ```bat
-   .\venv\Scripts\activate
+1. 仮想環境を有効化
+```bat
+.\venv\Scripts\activate
