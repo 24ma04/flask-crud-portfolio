@@ -14,13 +14,17 @@
 ※ 下記画像は例です。実際のアプリ画面に置き換えてください
 
 ### トップページ
-![トップページ](static/screenshots/screenshot_index.png)
+![トップページ](static/screenshots/screenshot_top.png)
 
 ### 新規追加ページ
 ![追加ページ](static/screenshots/screenshot_add.png)
 
 ### 編集ページ
 ![編集ページ](static/screenshots/screenshot_edit.png)
+
+### 削除確認ダイアログ
+![削除確認ダイアログ](static/screenshots/screenshot_delete_confirm.png)
+
 
 ## 技術スタック
 - Python 3.x
