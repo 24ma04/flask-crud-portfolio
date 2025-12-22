@@ -55,3 +55,8 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 python app.py
+
+
+## ポートフォリオ
+このアプリのソースコードは [GitHub](https://github.com/24ma04/flask-crud-portfolio) に公開しています。
+
