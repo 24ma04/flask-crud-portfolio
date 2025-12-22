@@ -37,10 +37,13 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 
 
 ## 技術スタック
+## 技術スタック
 - Python 3.x
 - Flask
+- SQLAlchemy
 - SQLite
-- Bootstrap
+- HTML / CSS
+- JavaScript
 
 ## 実行方法（任意）
 1. 仮想環境を有効化
