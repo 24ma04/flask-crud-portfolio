@@ -37,7 +37,6 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 
 
 ## 技術スタック
-## 技術スタック
 - Python 3.x
 - Flask
 - SQLAlchemy
@@ -45,7 +44,7 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 - HTML / CSS
 - JavaScript
 
-## 実行方法（任意）
-1. 仮想環境を有効化
-```bat
-.\venv\Scripts\activate
+## 実行環境
+- OS：Windows / macOS / Linux
+- Python：3.x
+- 仮想環境：venv
