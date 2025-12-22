@@ -44,6 +44,10 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 - HTML / CSS
 - JavaScript
 
+## ポートフォリオ
+このアプリのソースコードは [GitHub](https://github.com/24ma04/flask-crud-portfolio) に公開しています。
+
+
 ## 実行方法（Windows）
 
 ```bash
@@ -55,8 +59,3 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 python app.py
-
-
-## ポートフォリオ
-このアプリのソースコードは [GitHub](https://github.com/24ma04/flask-crud-portfolio) に公開しています。
-
