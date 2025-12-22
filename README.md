@@ -44,7 +44,15 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 - HTML / CSS
 - JavaScript
 
-## 実行環境
-- OS：Windows / macOS / Linux
-- Python：3.x
-- 仮想環境：venv
+## 実行方法（Windows）
+
+```bash
+git clone https://github.com/24ma04/flask-crud-portfolio.git
+cd flask-crud-portfolio
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+python app.py
+
