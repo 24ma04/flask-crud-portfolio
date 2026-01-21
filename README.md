@@ -69,15 +69,14 @@ cd flask-crud-portfolio
 2. 仮想環境の作成（推奨）
 ```
 python -m venv venv
-venv\Scripts\activate
 ```
 3. 仮想環境の有効化(成功すると、プロンプトの先頭に (venv) が表示されます)
 ```
 venv\Scripts\activate
 ```
-4. 依存ライブラリのインストール（無ければ個別にインストール）
+4. 依存ライブラリのインストール
 
-# requirements.txt がある場合
+# requirements.txt がある場合(推奨)
 ```
 pip install -r requirements.txt
 ```
