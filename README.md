@@ -62,7 +62,7 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 
 ## 実行方法（Windows）
 
-1. クローン
+1. リポジトリをクローン
 ```
 git clone https://github.com/24ma04/flask-crud-portfolio.git
 cd flask-crud-portfolio
@@ -74,8 +74,10 @@ venv\Scripts\activate
 ```
 3. 依存ライブラリのインストール（無ければ個別にインストール）
  ```
+# requirements.txt がある場合
 pip install -r requirements.txt
 
+# なければ個別にインストール
 pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
 ```
 4. アプリ起動
