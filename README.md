@@ -76,7 +76,7 @@ venv\Scripts\activate
 venv\Scripts\activate
 ```
 4. 依存ライブラリのインストール（無ければ個別にインストール）
- ```
+
 # requirements.txt がある場合
 ```
 pip install -r requirements.txt
