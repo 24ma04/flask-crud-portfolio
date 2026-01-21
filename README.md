@@ -18,10 +18,6 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 - カード編集
 - カード削除（削除確認ダイアログ付き）
 
-## 初期ユーザー
-| ユーザー名 | パスワード |
-|------------|------------|
-| test       | 1234       |
 
 ※ 必要に応じて app.py 内でユーザーを追加してください。
 
@@ -62,29 +58,42 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 
 ## 実行方法（Windows）
 
-1. リポジトリをクローン
-```
+### 1. リポジトリをクローン
+※ すでにフォルダがある場合はこの手順は不要です
+
+```cmd
 git clone https://github.com/24ma04/flask-crud-portfolio.git
 cd flask-crud-portfolio
+
 ```
-2. 仮想環境（推奨）
+2. 仮想環境の作成（推奨）
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
-3. 依存ライブラリのインストール（無ければ個別にインストール）
+3. 仮想環境の有効化
+```
+venv\Scripts\activate
+```
+4. 依存ライブラリのインストール（無ければ個別にインストール）
  ```
 # requirements.txt がある場合
+```
 pip install -r requirements.txt
-
+```
 # なければ個別にインストール
+```
 pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
 ```
-4. アプリ起動
+5. アプリ起動
 ```
 python app.py
 ```
-5. ブラウザでアクセス
+6. ブラウザでアクセス
 ```
 http://127.0.0.1:5000/login
 ```
+## 初期ユーザー
+| ユーザー名 | パスワード |
+|------------|------------|
+| test       | 1234       |
