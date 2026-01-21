@@ -54,10 +54,6 @@ test	       1234
 - HTML / CSS
 - JavaScript
 
-## 動作確認
-また、ブラウザ上で動作を確認できる [Replit版](https://replit.com/@aprilxxx666/flask-crud-portfolio) も用意しています。
-
-
 ## 実行方法（Windows）
 
 ```bash
