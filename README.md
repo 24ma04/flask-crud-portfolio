@@ -75,7 +75,7 @@ venv\Scripts\activate
 3. 依存ライブラリのインストール
  ```
 pip install -r requirements.txt
-なければ個別にインストール
+# なければ個別にインストール
 pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
 ```
 4. アプリ起動
