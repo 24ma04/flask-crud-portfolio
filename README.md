@@ -66,3 +66,18 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 ```bash
 git clone https://github.com/24ma04/flask-crud-portfolio.git
 cd flask-crud-portfolio
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# requirements.txt がある場合
+pip install -r requirements.txt
+
+# なければ個別にインストール
+pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
+
+# Windows
+python app.py
+
+http://127.0.0.1:5000/login
