@@ -71,7 +71,7 @@ cd flask-crud-portfolio
 python -m venv venv
 venv\Scripts\activate
 ```
-3. 仮想環境の有効化
+3. 仮想環境の有効化(成功すると、プロンプトの先頭に (venv) が表示されます)
 ```
 venv\Scripts\activate
 ```
