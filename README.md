@@ -72,10 +72,10 @@ cd flask-crud-portfolio
 python -m venv venv
 venv\Scripts\activate
 ```
-3. 依存ライブラリのインストール
+3. 依存ライブラリのインストール（なければ個別にインストール）
  ```
 pip install -r requirements.txt
-# なければ個別にインストール
+
 pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
 ```
 4. アプリ起動
