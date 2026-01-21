@@ -72,7 +72,7 @@ cd flask-crud-portfolio
 python -m venv venv
 venv\Scripts\activate
 ```
-3. 依存ライブラリのインストール（なければ個別にインストール）
+3. 依存ライブラリのインストール（無ければ個別にインストール）
  ```
 pip install -r requirements.txt
 
