@@ -68,6 +68,7 @@ git clone https://github.com/24ma04/flask-crud-portfolio.git
 cd flask-crud-portfolio
 
 2. 仮想環境（推奨）
+
 python -m venv venv
 venv\Scripts\activate
 
@@ -83,5 +84,3 @@ python app.py
 
 5. ブラウザでアクセス
 http://127.0.0.1:5000/login
-
-※ Mac/Linux では未確認です。Windows で動作確認済み
