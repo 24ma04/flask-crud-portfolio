@@ -58,14 +58,16 @@ Python と Flask を用いて作成した Web ベースの CRUD アプリケー�
 
 ## 実行方法（Windows）
 
-### 1. リポジトリをクローン
+1. リポジトリをコピーする
 ※ すでにフォルダがある場合はこの手順は不要です
-
-```cmd
-git clone https://github.com/24ma04/flask-crud-portfolio.git
-cd flask-crud-portfolio
-
 ```
+git clone https://github.com/24ma04/flask-crud-portfolio.git
+```
+2. 作成されたフォルダに移動する
+```
+cd flask-crud-portfolio
+```
+
 2. 仮想環境の作成（推奨）
 ```
 python -m venv venv
