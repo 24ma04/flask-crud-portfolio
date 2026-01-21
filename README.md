@@ -68,15 +68,15 @@ git clone https://github.com/24ma04/flask-crud-portfolio.git
 cd flask-crud-portfolio
 ```
 
-2. 仮想環境の作成（推奨）
+3. 仮想環境の作成（推奨）
 ```
 python -m venv venv
 ```
-3. 仮想環境の有効化(成功すると、プロンプトの先頭に (venv) が表示されます)
+4. 仮想環境の有効化(成功すると、プロンプトの先頭に (venv) が表示されます)
 ```
 venv\Scripts\activate
 ```
-4. 依存ライブラリのインストール
+5. 依存ライブラリのインストール
 
 # requirements.txt がある場合(推奨)
 ```
@@ -86,11 +86,11 @@ pip install -r requirements.txt
 ```
 pip install Flask Flask-Login Flask-SQLAlchemy Werkzeug
 ```
-5. アプリ起動
+6. アプリ起動
 ```
 python app.py
 ```
-6. ブラウザでアクセス
+7. ブラウザでアクセス
 ```
 http://127.0.0.1:5000/login
 ```
