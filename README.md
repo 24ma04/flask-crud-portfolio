@@ -60,12 +60,12 @@ Webアプリとして形にすることを目標としました。
 ---
 
 ## 技術スタック
-- Python 3.x
-- Flask
-- SQLAlchemy
-- SQLite
-- HTML / CSS
-- JavaScript
+- Python 3.x：学習・開発用の標準言語
+- Flask：軽量で学習コストが低く、CRUDやテンプレート連携を理解するのに最適
+- SQLAlchemy：PythonコードでDB操作でき、SQLを直接書かずに扱える
+- SQLite：小規模アプリで設定不要、学習用に最適
+- HTML / CSS：画面表示の基本構造とスタイル付け
+- JavaScript：フォーム制御や動的表示のため
 
 ---
 
